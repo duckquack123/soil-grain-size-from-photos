@@ -1,0 +1,26 @@
+# Local competition data
+data/
+
+# Regenerable model/features and large binary artifacts
+cache/
+*.npz
+*.zip
+
+# Generated outputs
+logs/
+submissions/
+results/
+figures/debug/
+
+# Python and local environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# Editor and OS files
+.DS_Store
+.vscode/
